@@ -1,75 +1,46 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:5C2D91&height=170&section=header&text=Abdel-Rahman%20Owais&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20.NET%20Developer&descAlignY=58&descSize=17" />
+# Abdel-Rahman Owais — Junior .NET Backend Developer
 
-# Hi, I'm Abdel-Rahman 👋
+Building production-style backend systems with ASP.NET Core, C#, and SQL Server. Focused on Clean Architecture, CQRS, and scalable API design.
 
-Backend .NET Developer focused on building REST APIs using ASP.NET Core.
+📫 abdoo.owais@gmail.com &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/eowais)
 
-Currently building backend systems, learning software architecture, and improving my skills in designing scalable applications.
+---
+
+## 💼 Featured Project — Hospital ERP System
+
+Healthcare management backend covering Pharmacy, Laboratory, Radiology, Patient Care, Doctor Management, and Hospital Administration, delivered through web and mobile clients.
+
+**Architecture & key decisions**
+- Clean Architecture + Vertical Slice Architecture, with CQRS via MediatR
+- Mixed data-access strategy: **EF Core** for commands (Create/Update/Delete), **Dapper + stored procedures** for high-traffic read queries — chosen after comparing both for this project's read-heavy modules
+- JWT authentication with role-based access control (RBAC) and bitmask-based permission flags
+- FluentValidation for request validation · Swagger/Scalar for API documentation
+
+**Stack:** ASP.NET Core Web API · C# · SQL Server · EF Core · Dapper · MediatR · Docker
+
+🔗 [Repository](https://github.com/Dev0-0Team/Hospital-ERP-Backend)
+
+<!-- TODO: add a screenshot or short GIF of the Swagger UI / a sample endpoint response here.
+     A visual is the single biggest thing missing — it proves the API actually runs. -->
 
 ---
 
 ## 🛠 Tech Stack
 
-### Backend
-- C#
-- ASP.NET Core Web API
-- Entity Framework Core
-- Dapper
-- LINQ
-
-### Database
-- SQL Server
-- T-SQL
-- Database Design
-
-### Architecture & Patterns
-- Clean Architecture
-- CQRS
-- MediatR
-- Vertical Slice Architecture
-- Repository Pattern
-
-### Authentication & Security
-- ASP.NET Core Identity
-- JWT Authentication
-- Role-Based Authorization
-
-### DevOps & Tools
-- Docker
-- Git
-- GitHub
+| | |
+|---|---|
+| **Backend** | C#, ASP.NET Core Web API, LINQ |
+| **Data** | SQL Server, T-SQL, EF Core, Dapper |
+| **Architecture** | Clean Architecture, Vertical Slice Architecture, CQRS, MediatR, Repository Pattern |
+| **Auth & Security** | ASP.NET Core Identity, JWT, Role-Based Authorization |
+| **Tools** | Docker, Git & GitHub, Swagger / Scalar |
 
 ---
 
-## 🚀 Current Project
+## 📝 Writing
 
-### Hospital ERP System
-
-A backend system for managing hospital operations through REST APIs.
-
-Features include:
-
-- Patient Management
-- Appointment Scheduling
-- Laboratory Requests & Results
-- Authentication & Authorization
-
-Built using:
-
-ASP.NET Core • EF Core • SQL Server • Clean Architecture • CQRS • MediatR • Docker
+I share what I'm learning about backend engineering and system design on [LinkedIn](https://linkedin.com/in/eowais) — recent posts cover EF Core vs. Dapper trade-offs and Clean Architecture layering.
 
 ---
 
-## 📫 Connect With Me
-
-<p align="left">
-<a href="https://linkedin.com/in/eowais">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:abdoo.Owais@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
-</a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:5C2D91&height=90&section=footer" />
+📫 Open to Junior / Entry-Level Backend Developer opportunities — reach me at abdoo.owais@gmail.com
